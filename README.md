@@ -2,14 +2,14 @@
 
 The files in this repository were used to configure the network depicted below.
 
-XCorp_Network_Architechture_with_ELK.png
+/reimagined-happiness/Diagrams/XCorp_Network_Architechture_with_ELK.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the docker_config_playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - docker_config_playbook.yml
-  - filebeat-playbook.yml
-  - metricbeat-playbook.yml
-  - install-elk.yml
+  - /reimagined-happiness/Ansible/docker_config_playbook.yml
+  - /reimagined-happiness/Ansible/filebeat-playbook.yml
+  - /reimagined-happiness/Ansible/metricbeat-playbook.yml
+  - /reimagined-happiness/Ansible/install-elk.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -29,11 +29,10 @@ Load balancing ensures that the application will be highly available, in additio
 - What is the advantage of a jump box? A jump box is advantageous in that it gives a single secure origin access point to the user. From this jumpbox then can users access servers. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jump box and system network.
-- _TODO: What does Filebeat watch for? FIlebeat monitors log files from specific locations.
-- _TODO: What does Metricbeat record? Metricbeat collects system data from servers.
+- What does Filebeat watch for? FIlebeat monitors log files from specific locations.
+- What does Metricbeat record? Metricbeat collects system data from servers.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function  | IP Address | Operating System |
 |----------|---------- |------------|------------------|
@@ -75,7 +74,7 @@ The playbook implements the following tasks:
 - Download and launch Docker
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-/reimagined-happiness/docker_ps_output.png
+/reimagined-happiness/Images/docker_ps_output.png
 
 
 ### Target Machines & Beats
