@@ -2,14 +2,14 @@
 
 The files in this repository were used to configure the network depicted below.
 
-/reimagined-happiness/Diagrams/XCorp_Network_Architechture_with_ELK.png
+./Diagrams/XCorp_Network_Architechture_with_ELK.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the docker_config_playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - /reimagined-happiness/Ansible/docker_config_playbook.yml
-  - /reimagined-happiness/Ansible/filebeat-playbook.yml
-  - /reimagined-happiness/Ansible/metricbeat-playbook.yml
-  - /reimagined-happiness/Ansible/install-elk.yml
+  - ./Ansible/docker_config_playbook.yml
+  - ./Ansible/filebeat-playbook.yml
+  - ./Ansible/metricbeat-playbook.yml
+  - ./Ansible/install-elk.yml
 
 This document contains the following details:
 - Description of the Topology
