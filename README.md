@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-XCorp_Network_Architechture_with_ELK.png
+![Cloud Security Diagram](Diagrams/XCorp_Network_Architechture_with_ELK.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the docker_config_playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -64,10 +64,10 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible? It allows you to configure multiple servers at once and from a security perspective if a playbook is ran on a control machine then all the virtual machines will be updated with the same details. Each Machine will no longer need to be monitored for security compliance.
+- _TODO: What is the main advantage of automating configuration with Ansible? It allows you to configure multiple servers at once and from a security perspective if a playbook is ran on a control machine then all the virtual machines will be updated with the same details. Each Machine will no longer need to be monitored for security compliance.
 
 The playbook implements the following tasks:
-- The steps of the ELK installation play.
+- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Install docker.io
 - Install pip3
 - Install Docker python module
@@ -75,7 +75,7 @@ The playbook implements the following tasks:
 - Download and launch Docker
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-/reimagined-happiness/docker_ps_output.png
+docker_ps_output.png
 
 
 ### Target Machines & Beats
