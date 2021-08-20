@@ -43,7 +43,7 @@ The configuration details of each machine may be found below.
 
 ### Access Policies
 
-The machines on the internal network are not exposed to the public Internet. 
+The machines on the internal network are not exposed to the public internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - 66.76.216.128
@@ -62,11 +62,10 @@ A summary of the access policies in place can be found in the table below.
 			  
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible? It allows you to configure multiple servers at once and from a security perspective if a playbook is ran on a control machine then all the virtual machines will be updated with the same details. Each Machine will no longer need to be monitored for security compliance.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows you to configure multiple servers at once. From a security perspective if a playbook is ran on a control machine then all the virtual machines will be updated with the same details. Each Machine will no longer need to be monitored for security compliance.
 
 The playbook implements the following tasks:
-- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+
 - Install docker.io
 - Install pip3
 - Install Docker python module
@@ -86,7 +85,7 @@ This ELK server is configured to monitor the following machines:
 |       	|            	|   
 
 We have installed the following Beats on these machines:
-- FIleBeat and MetricBeat
+- FileBeat and MetricBeat
 
 These Beats allow us to collect the following information from each machine:
 - FileBeat- collects file system data such as log events.
